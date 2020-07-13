@@ -258,7 +258,7 @@ void ChatService::oneChat(const TcpConnectionPtr &conn, json &js, Timestamp time
             return;
         }
     }
-        // 查询toid是否在线 
+        // 查询toid是否在线
     User user = _userModel.query(toid);
     if (user.getState() == "online")
     {

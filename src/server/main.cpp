@@ -1,3 +1,5 @@
+//@Author Xuhang Zhang
+//@Email zxh.scut@mail.edu.cn
 #include "chatserver.hpp"
 #include "chatservice.hpp"
 #include <iostream>
